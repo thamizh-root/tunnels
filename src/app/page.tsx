@@ -1,6 +1,12 @@
 
+import { Button } from "@/components/ui/button";
+
+
 export default function Page() {
   return (
-    <p className="text-red-500 font-extrabold">Hello World!</p>
+    <div className="min-h-screen min-w-screen flex items-center justify-center">
+      <Button> Click Me!</Button>
+      {/* <p className="text-red-500 font-extrabold">Hello World!</p> */}
+    </div>
   );
 }
